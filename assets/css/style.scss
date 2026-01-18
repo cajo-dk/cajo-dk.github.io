@@ -1,6 +1,23 @@
-.header-image {
-  display: block;
-  margin: 0 auto 1rem auto;
-  max-width: 120px;
+---
+---
+
+/* Import Hacker theme styles */
+@import "{{ site.theme }}";
+
+/* Right-aligned circular avatar on front page */
+.header-avatar {
+  float: right;
+  width: 120px;
+  height: 120px;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
   border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Safety: ensure header clears floated avatar */
+header::after {
+  content: "";
+  display: table;
+  clear: both;
 }
