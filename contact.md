@@ -8,6 +8,9 @@ nav: true
 
 # Contact Me
 
-- Mobile: +45 23 35 91 84
+If you have comments or suggestions, feel free to drop me a line.
+
+**Please note**, I do *not* offer any form for support on what you find here - so don't bother writing about that.
+
 - Email: ar@cajo.dk
 
