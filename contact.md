@@ -1,9 +1,10 @@
 ---
 layout: page
-title: "Contact Info"
-permalink: "about/contact"
+title: "Contact"
 ---
 
 # Contact Me
 
-Coming soon..
+Mobile: +45 23 35 91 84
+Email: ar@cajo.dk
+
