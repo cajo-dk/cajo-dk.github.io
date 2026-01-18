@@ -5,6 +5,6 @@ title: "Contact"
 
 # Contact Me
 
-Mobile: +45 23 35 91 84
-Email: ar@cajo.dk
+- Mobile: +45 23 35 91 84
+- Email: ar@cajo.dk
 
