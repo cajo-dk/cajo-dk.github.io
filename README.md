@@ -1,3 +1,8 @@
+---
+layout: page
+title:  "Home, Sweet Home"
+---
+
 # Great - You found your way here..
 
 Welcome..
