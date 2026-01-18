@@ -1,17 +1,6 @@
----
-layout: page
-title:  "Home, Sweet Home"
----
 
 # Great - You found your way here..
 
-Welcome..
-
-## What's this
-
-Text
-
-### And this
 
 <ul>
   {% for post in site.posts %}
