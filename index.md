@@ -6,6 +6,8 @@ title: Home
 # Hello 👋
 This site is powered by Jekyll + GitHub Pages.
 
+<nav class="site-nav">
 {% for item in site.nav_pages %}
   <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
 {% endfor %}
+</nav>
