@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "Contact"
+title: Contact
+permalink: /contact/
+nav: true
 ---
+
 
 # Contact Me
 
