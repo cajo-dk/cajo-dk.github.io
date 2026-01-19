@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h1>Tag: #{{ page.tag }}</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% if post.tags contains page.tag %}
+      <li class="post-item">
+        <div class="post-item-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </div>
+        <div class="post-item-meta">
+          <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        </div>
+        <div class="post-item-excerpt">
+          {{ post.excerpt }}
+        </div>
+        <div class="post-item-more">
+          <a href="{{ post.url | relative_url }}">Read more →</a>
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<p><a href="{{ '/tags/' | relative_url }}">← All tags</a></p>

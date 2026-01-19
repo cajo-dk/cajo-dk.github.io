@@ -70,3 +70,67 @@
   color: #888;
   font-size: 0.9em;
 }
+
+/* Blog styling */
+.post-sep {
+  margin: 1rem 0;
+  opacity: 0.4;
+}
+
+.post-meta {
+  margin-top: 0.25rem;
+  opacity: 0.85;
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.post-item {
+  margin: 1.25rem 0;
+}
+
+.post-item-title a {
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.post-item-title a:hover {
+  text-decoration: underline;
+}
+
+.post-item-meta {
+  margin-top: 0.25rem;
+  opacity: 0.85;
+}
+
+.post-item-excerpt {
+  margin-top: 0.5rem;
+  opacity: 0.95;
+}
+
+.post-item-more {
+  margin-top: 0.4rem;
+}
+
+/* Tags */
+.tag {
+  text-decoration: none;
+}
+
+.tag:hover {
+  text-decoration: underline;
+}
+
+.tag-cloud {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.tag-cloud li {
+  display: inline-block;
+  margin: 0.25rem 0.6rem 0.25rem 0;
+}

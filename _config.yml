@@ -2,6 +2,21 @@ theme: jekyll-theme-minimal
 title: Alex Rasmussen
 description: Feel free to use what you find here - but please leave a back reference to the OG.
 
+# Blog URLs
+permalink: /blog/:year/:month/:day/:title/
+
+# Show excerpts automatically on index pages
+excerpt_separator: "<!--more-->"
+
+# Defaults (so posts use the post layout automatically)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+
 nav_pages:
   - title: Home
     url: /
