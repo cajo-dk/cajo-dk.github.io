@@ -41,4 +41,6 @@ I enjoy learning by building, breaking things (preferably in non-production envi
   {% endfor %}
 </ul>
 
+<hr class="post-sep" />
+
 <p><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
