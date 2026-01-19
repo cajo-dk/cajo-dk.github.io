@@ -46,31 +46,26 @@ So, the idea emerged naturally: Use cutting-edge AI tooling to build something a
 ## Chapter 3: Setting the Bar High (On Purpose)
 Not knowing what to expect, I deliberately over-engineered the solution to test real capabilities rather than toy examples.
 
-High-level goals:
+### High-level goals:
 
-Frontend
-
-React-based adaptive SPA
-Built with Vite
-Served as static assets via Nginx
-PWA-capable (online only)
-
-Backend
-
-Python + FastAPI
-Hexagonal architecture (Ports & Adapters)
-PostgreSQL with SQLAlchemy
-Event-driven integration (ActiveMQ / MQTT)
-Transactional outbox with workers
-
-Platform & Security
-
-Azure Entra ID authentication
-RBAC enforced at HTTP entry points
+- Frontend
+ - React-based adaptive SPA
+ - Built with Vite
+ - Served as static assets via Nginx
+ - PWA-capable (online only)
+- Backend
+ - Python + FastAPI
+ - Hexagonal architecture (Ports & Adapters)
+ - PostgreSQL with SQLAlchemy
+ - Event-driven integration (ActiveMQ / MQTT)
+ - Transactional outbox with workers
+- Platform & Security
+ - Azure Entra ID authentication
+ - RBAC enforced at HTTP entry points
 
 (Full specs and code are available on GitHub—links at the end.)
 
-First Build: From Nothing to “Something”
+## First Build: From Nothing to “Something”
 I started with Claude, mainly to explore its planning mode. Armed with a short set of architectural and design principles, it didn’t take long before it was ready to generate code.
 
 After 15–20 minutes of what felt like equal parts contemplation and chaos, there it was:
