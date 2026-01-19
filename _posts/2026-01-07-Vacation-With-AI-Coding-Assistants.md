@@ -11,7 +11,9 @@ This is my hands-on experience working side-by-side with modern AI coding assist
 
 <!--more-->
 
-Disclaimer: This article reflects one practitioner's hands-on experience with modern AI coding assistants. It is not based on formal benchmarking or quantitative metrics.
+*Disclaimer: This article reflects one practitioner's hands-on experience with modern AI coding assistants. It is not based on formal benchmarking or quantitative metrics.*
+
+## The Contestants
 
 If you work in IT, there's little chance you haven't heard about advanced AI coding assistants like Claude and Codex. Until recently, I had only scratched the surface-quick experiments here and there, nothing sustained.
 
