@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+html {
+  overflow-y: scroll;
+}
+
 /* Header grid layout */
 .header-grid {
   display: grid;
