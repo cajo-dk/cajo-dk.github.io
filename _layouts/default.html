@@ -12,20 +12,38 @@
 
   <body>
     <header>
-      <div class="container">
-        <a id="a-title" href="{{ "/" | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
+      <div class="container header-grid">
 
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <!-- Title -->
+        <div class="header-title">
+          <a id="a-title" href="{{ "/" | relative_url }}">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          </a>
+        </div>
 
+        <!-- Description -->
+        <div class="header-description">
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        </div>
+
+        <!-- Avatar (front page only) -->
         {% if page.url == "/" %}
-          <img
-            src="{{ "/assets/images/avatar.jpg" | relative_url }}"
-            alt="Avatar"
-            class="header-avatar"
-          />
+          <div class="header-avatar-wrap">
+            <img
+              src="{{ "/assets/images/avatar.jpg" | relative_url }}"
+              alt="Avatar"
+              class="header-avatar"
+            />
+          </div>
         {% endif %}
+
+        <!-- Navigation (bottom of header) -->
+        <nav class="header-nav">
+          {% for item in site.nav_pages %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+
       </div>
     </header>
 
