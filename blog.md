@@ -6,6 +6,8 @@ permalink: /blog/
 
 # Blog
 
+<p>Debug: {{ site.posts | size }} posts</p>
+
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-item">
