@@ -8,9 +8,9 @@ nav: true
 
 # Contact Me
 
-If you have comments or suggestions, feel free to drop me a line - I'd love to hear from you.
+If you have comments or suggestions, drop me a line - I'd love to hear from you.
 
-**Please note**, I do *not* offer any form for support on what you find here - so don't bother writing about that.
+**Please note**, I do *not* offer any form of support on what you find here - so don't bother writing about that.
 
 - Email: ar@cajo.dk
 
