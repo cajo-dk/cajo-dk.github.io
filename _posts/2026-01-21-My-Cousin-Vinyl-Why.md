@@ -18,7 +18,7 @@ At its core, MyCousinVinyl is a shared vinyl collection manager. It tracks artis
 - AI-based album wizard: A guided flow that helps you identify and add the right album and pressing quickly, even when you only have partial info.
 
 
-<img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" style="width: 60%; margin-top: 40px; margin-bottom: 40px; justify-self: center">
+<img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
 
 
 ## Why I built it this way
@@ -30,7 +30,7 @@ I wanted a system that would be robust enough for real use but still approachabl
 - Tight security at the edges, with simple core logic inside.
 
 
-<img src="/assets/images/mycousinvinyl-02.png" alt="Front page statistics" width="60%">
+<img src="/assets/images/mycousinvinyl-02.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
 
 
 ## Chosen components and how they fit
@@ -45,7 +45,7 @@ The stack is deliberate and opinionated:
 - Auth: Azure Entra ID with group-based RBAC enforced at HTTP entrypoints.
 
 
-<img src="/assets/images/mycousinvinyl-03.png" alt="Front page statistics" width="60%">
+<img src="/assets/images/mycousinvinyl-03.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
 
 
 ## The two standout features
@@ -54,7 +54,7 @@ Collection sharing is the heart of the app. The goal is to make a family collect
 The create wizard is the other differentiator. It is designed to reduce the friction of adding records by guiding you through identification and matching. The wizard is the first place where AI adds real value beyond convenience.
 
 
-<img src="/assets/images/mycousinvinyl-04.png" alt="Front page statistics" width="60%">
+<img src="/assets/images/mycousinvinyl-04.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
 
 
 ## What I would change next
