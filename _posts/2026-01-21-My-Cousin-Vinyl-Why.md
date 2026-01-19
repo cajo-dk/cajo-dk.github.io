@@ -17,7 +17,6 @@ At its core, MyCousinVinyl is a shared vinyl collection manager. It tracks artis
 - Collection sharing: Each user's collection is their own, but users can see, if another member of their group has a pressing in their collection - great when shopping for presents.
 - AI-based album wizard: A guided flow that helps you identify and add the right album and pressing quickly, even when you only have partial info.
 
-![Screenshot 1](/assets/images/mycousinvinyl-01.png){: width= "60%"}
 
 <img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" width="60%">
 
@@ -30,7 +29,9 @@ I wanted a system that would be robust enough for real use but still approachabl
 - Docker-first deployment so I can run it on a NAS or a local dev stack without friction.
 - Tight security at the edges, with simple core logic inside.
 
-![Screenshot: Album details view](/assets/images/mycousinvinyl-02.png){: width= "60%"}
+
+<img src="/assets/images/mycousinvinyl-02.png" alt="Front page statistics" width="60%">
+
 
 ## Chosen components and how they fit
 The stack is deliberate and opinionated:
@@ -43,14 +44,18 @@ The stack is deliberate and opinionated:
 - Discogs proxy service: A small service that handles Discogs API access cleanly and safely.
 - Auth: Azure Entra ID with group-based RBAC enforced at HTTP entrypoints.
 
-![Screenshot: Collection sharing controls](/assets/images/mycousinvinyl-03.png){: width= "60%"}
+
+<img src="/assets/images/mycousinvinyl-03.png" alt="Front page statistics" width="60%">
+
 
 ## The two standout features
 Collection sharing is the heart of the app. The goal is to make a family collection feel like a shared library, but still respect boundaries and responsibilities. The RBAC model keeps it simple: Admin, Editor, Viewer.
 
 The create wizard is the other differentiator. It is designed to reduce the friction of adding records by guiding you through identification and matching. The wizard is the first place where AI adds real value beyond convenience.
 
-![Screenshot: AI album wizard flow](/assets/images/mycousinvinyl-04.png){: width= "60%"}
+
+<img src="/assets/images/mycousinvinyl-04.png" alt="Front page statistics" width="60%">
+
 
 ## What I would change next
 I want to expand the wizard with better suggestions and richer metadata validation. I also want the sharing model to support multiple collections with different visibility rules, so a household can maintain sub-collections without splitting the system.
