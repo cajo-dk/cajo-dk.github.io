@@ -19,7 +19,8 @@ permalink: /tags/
 
   {% for tag in tag_names %}
     <li>
-      <a class="tag" href="{{ '/tag/' | append: tag | slugify | append: '/' | relative_url }}">#{{ tag }}</a>
+      {% assign tag_slug = tag | slugify %}
+      <a class="tag" href="{{ '/tag/' | append: tag_slug | append: '/' | relative_url }}">#{{ tag }}</a>
     </li>
   {% endfor %}
 </ul>
