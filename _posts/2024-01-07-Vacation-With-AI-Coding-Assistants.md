@@ -1,5 +1,7 @@
 ﻿---
+layout: post
 title: First Post
+date: 2024-01-07
 tags: [homeassistant, codex]
 ---
 
