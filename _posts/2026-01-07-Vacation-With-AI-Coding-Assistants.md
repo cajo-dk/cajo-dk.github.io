@@ -9,6 +9,8 @@ What if one week of vacation was enough to build a production-grade application-
 
 This is my hands-on experience working side-by-side with modern AI coding assistants.
 
+[Code on GitHub](https://github.com/cajo-dk/mycousinvinyl)
+
 <!--more-->
 
 *Disclaimer: This article reflects one practitioner's hands-on experience with modern AI coding assistants. It is not based on formal benchmarking or quantitative metrics.*
@@ -24,12 +26,12 @@ What does it actually feel like to work with these tools in a professional setti
 <div class="post-intro">
 <div class="post-intro-main" markdown="1">
 
-## Chapter 1: The Experiment
+## The Experiment
 Rather than trying them in isolation, I wanted to explore how they behaved together. Would they critique each other's work? Build on it? Fall apart?
 
 To find out, I committed to a single project and used both assistants throughout the entire lifecycle.
 
-## Chapter 2: The Use Case
+## The Use Case
 At home, we're a family of music lovers and vinyl collectors. Like many others, we use Discogs to manage collections. It's powerful-but not always intuitive.
 
 So, the idea emerged naturally: Use cutting-edge AI tooling to build something around one of the most wonderfully analog things there is-vinyl records.
@@ -45,7 +47,7 @@ So, the idea emerged naturally: Use cutting-edge AI tooling to build something a
 </aside>
 </div>
 
-## Chapter 3: Setting the Bar High (On Purpose)
+## Setting the Bar High (On Purpose)
 Not knowing what to expect, I deliberately over-engineered the solution to test real capabilities rather than toy examples.
 
 ### High-level goals:
@@ -153,3 +155,8 @@ We’re not just improving productivity.
 
 We’re witnessing a genuine shift in how software gets created.
 
+---
+
+### What's Up With The Application Name?
+
+MyCousinVinyl is a play on words and a silent homage to the 1992 movie "My Cousin Vinny", starring Joe Pesci, Marisa Tomei, and Ralph Macchio.            
