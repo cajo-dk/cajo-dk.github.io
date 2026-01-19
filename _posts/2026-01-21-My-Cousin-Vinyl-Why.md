@@ -1,9 +1,11 @@
 ---
 layout: post
 title: My Cousin Vinyl - Why I Built It and How It Works
-date: 2026-01-21
+date: 2026-01-08
 tags: [ai, codex, openai, claude, python, microservices, eventbased, docker, domaindrivendesign, cloud]
 ---
+
+*This post is based on an article, I wrote on LinkedIn. Read the article here:* [LinkedIn](https://www.linkedin.com/pulse/vacation-ai-coding-assistants-where-does-lead-alex-rasmussen-auttc/)
 
 MyCousinVinyl started as a practical itch: our household collects records, but managing a growing vinyl library across multiple people quickly becomes messy. I wanted a system that treats a collection like a shared catalog rather than a single-user list, and I wanted it to be fast, reliable, and pleasant to use on any device.
 
@@ -51,7 +53,7 @@ The stack is deliberate and opinionated:
 ## The two standout features
 Collection sharing is the heart of the app. The goal is to make a family collection feel like a shared library, but still respect boundaries and responsibilities. The RBAC model keeps it simple: Admin, Editor, Viewer.
 
-The create wizard is the other differentiator. It is designed to reduce the friction of adding records by guiding you through identification and matching. The wizard is the first place where AI adds real value beyond convenience.
+The create wizard is the other differentiator. It is designed to reduce the friction of adding records by guiding you through identification and matching. 
 
 
 <img src="/assets/images/mycousinvinyl-04.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
