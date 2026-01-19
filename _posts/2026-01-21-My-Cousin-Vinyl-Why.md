@@ -18,7 +18,7 @@ At its core, MyCousinVinyl is a shared vinyl collection manager. It tracks artis
 - AI-based album wizard: A guided flow that helps you identify and add the right album and pressing quickly, even when you only have partial info.
 
 
-<img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" style=width: 60%; margin-top: 20px">
+<img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" style="width: 60%; margin-top: 40px; margin-bottom: 40px; justify-self: center">
 
 
 ## Why I built it this way
