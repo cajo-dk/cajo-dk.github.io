@@ -13,9 +13,18 @@ The HA server is a Raspberry Pi 5 with 8GB RAM and a 128GB SSD. That is plenty f
 
 ## What I installed
 
+When running MCV on the local machine or from the NAS, each component runs in its own Docker container. In order to simplify the application when on the Pi, all components except the Postgresql and the MQTT broker run in the same container managed by the HASS server.
+
+¤¤¤ Prerequisites
+
+Before getting started, you need to ensure you have the following:
+
 - Home Assistant OS on the Pi 5.
-- MyCousinVinyl add-on from my repo.
+- MyCousinVinyl HA add-on from my repo.
 - Mosquitto MQTT broker as a Home Assistant add-on.
+- Postgres 17
+
+If you want to implement additional features, you must develop them in the MCV main project and pull them into the HA module using the script in the main repo.
 
 ## Why it saves energy
 

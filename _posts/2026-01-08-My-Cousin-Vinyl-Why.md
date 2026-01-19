@@ -66,6 +66,6 @@ The create wizard is the other differentiator. It is designed to reduce the fric
 ## What I would change next
 I want to expand the wizard with better suggestions and richer metadata validation. I also want the sharing model to support multiple collections with different visibility rules, so a household can maintain sub-collections without splitting the system.
 
-If you want the full architecture details or the code, the repository is public and contains additional documentation: 
+If you want the full architecture details or the code, the repository is public and contains additional documentationssssss: 
 
 `https://github.com/cajo-dk/mycousinvinyl`.
