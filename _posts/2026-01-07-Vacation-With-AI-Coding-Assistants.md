@@ -5,31 +5,45 @@ date: 2026-01-07
 tags: [ai, openai, claude, python, microservices, eventbased, docker, domaindrivendesign, cloud]
 ---
 
-What if one week of vacation was enough to build a production-grade application—simply by pairing with an AI? Not a demo. Not a toy project. A real system, with real architecture, real trade-offs, and real users.
+What if one week of vacation was enough to build a production-grade application-simply by pairing with an AI? Not a demo. Not a toy project. A real system, with real architecture, real trade-offs, and real users.
 
 This is my hands-on experience working side-by-side with modern AI coding assistants.
 
 <!--more-->
 
-Disclaimer: This article reflects one practitioner’s hands-on experience with modern AI coding assistants. It is not based on formal benchmarking or quantitative metrics.
+Disclaimer: This article reflects one practitioner's hands-on experience with modern AI coding assistants. It is not based on formal benchmarking or quantitative metrics.
 
-If you work in IT, there’s little chance you haven’t heard about advanced AI coding assistants like Claude and Codex. Until recently, I had only scratched the surface—quick experiments here and there, nothing sustained.
+If you work in IT, there's little chance you haven't heard about advanced AI coding assistants like Claude and Codex. Until recently, I had only scratched the surface-quick experiments here and there, nothing sustained.
 
 This holiday season gave me something rare: time. So, I decided to go deeper and answer a simple but important question:
 
 What does it actually feel like to work with these tools in a professional setting?
 
-The Experiment
-Rather than trying them in isolation, I wanted to explore how they behaved together. Would they critique each other’s work? Build on it? Fall apart?
+<div class="post-intro">
+<div class="post-intro-main" markdown="1">
+
+## Chapter 1: The Experiment
+Rather than trying them in isolation, I wanted to explore how they behaved together. Would they critique each other's work? Build on it? Fall apart?
 
 To find out, I committed to a single project and used both assistants throughout the entire lifecycle.
 
-The Use Case
-At home, we’re a family of music lovers and vinyl collectors. Like many others, we use Discogs to manage collections. It’s powerful—but not always intuitive.
+## Chapter 2: The Use Case
+At home, we're a family of music lovers and vinyl collectors. Like many others, we use Discogs to manage collections. It's powerful-but not always intuitive.
 
-So, the idea emerged naturally: Use cutting-edge AI tooling to build something around one of the most wonderfully analog things there is—vinyl records.
+So, the idea emerged naturally: Use cutting-edge AI tooling to build something around one of the most wonderfully analog things there is-vinyl records.
 
-Setting the Bar High (On Purpose)
+</div>
+<aside class="post-intro-aside">
+  <div class="thumbs-title">Thumbnails</div>
+  <div class="thumbs">
+    <div class="thumb-slot">1</div>
+    <div class="thumb-slot">2</div>
+    <div class="thumb-slot">3</div>
+  </div>
+</aside>
+</div>
+
+## Chapter 3: Setting the Bar High (On Purpose)
 Not knowing what to expect, I deliberately over-engineered the solution to test real capabilities rather than toy examples.
 
 High-level goals:
@@ -139,5 +153,4 @@ Watching my family actively use an application that would normally take many wee
 We’re not just improving productivity.
 
 We’re witnessing a genuine shift in how software gets created.
-
 

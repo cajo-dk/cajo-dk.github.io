@@ -123,6 +123,45 @@ html {
   margin-top: 0.4rem;
 }
 
+/* Post intro split: two chapters + thumbnail rail */
+.post-intro {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.post-intro-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.post-intro-aside {
+  flex: 0 0 180px;
+  text-align: right;
+}
+
+.post-intro-aside .thumbs-title {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 0.6rem;
+}
+
+.post-intro-aside .thumbs {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.post-intro-aside .thumb-slot {
+  height: 90px;
+  border: 1px dashed rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.4rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
 /* Tags */
 .tag {
   text-decoration: none;
