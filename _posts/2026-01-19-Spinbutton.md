@@ -5,7 +5,6 @@ date: 2026-01-19
 tags: [ui, web, javascript, component, open-source]
 ---
 
-# Show it in neon 
 
 Spinbutton is a small, focused repo that delivers a highly customizable button for Home Assistant, with a spinner border that animates around the button. I built it to be simple, reusable, and easy to drop into small projects without pulling in a big UI framework.
 
