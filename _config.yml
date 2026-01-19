@@ -5,7 +5,9 @@ description: Feel free to use what you find here - but please leave a back refer
 nav_pages:
   - title: Home
     url: /
-  - title: Contact
+  - title: Blog
+    url: /blog/
+- title: Contact
     url: /contact/
 
 remote_theme: pages-themes/hacker@v0.2.0

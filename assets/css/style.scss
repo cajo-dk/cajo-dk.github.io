@@ -55,3 +55,18 @@
 .header-nav a:hover {
   text-decoration: underline;
 }
+
+/* Blog list styling */
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list li {
+  margin-bottom: 0.5rem;
+}
+
+.post-date {
+  color: #888;
+  font-size: 0.9em;
+}
