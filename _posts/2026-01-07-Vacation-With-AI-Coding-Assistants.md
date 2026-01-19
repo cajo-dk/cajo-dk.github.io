@@ -49,19 +49,19 @@ Not knowing what to expect, I deliberately over-engineered the solution to test 
 ### High-level goals:
 
 - Frontend
- - React-based adaptive SPA
- - Built with Vite
- - Served as static assets via Nginx
- - PWA-capable (online only)
-- Backend
- - Python + FastAPI
- - Hexagonal architecture (Ports & Adapters)
- - PostgreSQL with SQLAlchemy
- - Event-driven integration (ActiveMQ / MQTT)
- - Transactional outbox with workers
+  - React-based adaptive SPA
+  - Built with Vite
+  - Served as static assets via Nginx
+  - PWA-capable (online only)
+- Backends
+  - Python + FastAPI
+  - Hexagonal architecture (Ports & Adapters)
+  - PostgreSQL with SQLAlchemy
+  - Event-driven integration (ActiveMQ / MQTT)
+  - Transactional outbox with workers
 - Platform & Security
- - Azure Entra ID authentication
- - RBAC enforced at HTTP entry points
+  - Azure Entra ID authentication
+  - RBAC enforced at HTTP entry points
 
 (Full specs and code are available on GitHub—links at the end.)
 
@@ -117,28 +117,30 @@ The answer isn’t tooling.
 
 It’s governance and intent.
 
-What AI Needs to Work Well at Scale
+## What AI Needs to Work Well at Scale
 AI coding assistants are only as good as the context you give them. Before writing a single line of code, teams should invest in documenting exactly what they’d explain to a senior developer on day one:
 
-Problem statement & desired outcomes
-Scope
-System context and architecture
-UX principles and style rules
-Technology stack
-Domain model and terminology
-Coding standards
-Data contracts
-Security requirements
-Feature requests & user stories
-Test strategies
-Non-functional requirements
-Repository conventions
-Known trade-offs and open questions
+- Problem statement & desired outcomes
+- Scope
+- System context and architecture
+- UX principles and style rules
+- Technology stack
+- Domain model and terminology
+- Coding standards
+- Data contracts
+- Security requirements
+- Feature requests & user stories
+- Test strategies
+- Non-functional requirements
+- Repository conventions
+- Known trade-offs and open questions
 
 All of this can be summarized in one sentence:
 
-Before using an AI coding assistant, document everything you would tell a new senior developer on their first day.
-Closing Thoughts
+> Before using an AI coding assistant, document everything you would tell a new senior developer on their first day.
+
+## Closing Thoughts
+
 I hadn’t written production code hands-on for quite some time, and I expected the re-entry to be rough. It wasn’t.
 
 It was fast. It was engaging. And it reminded me—very clearly—that building software is still fun.
