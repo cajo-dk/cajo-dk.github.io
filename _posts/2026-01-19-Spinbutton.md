@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spinbutton - A Tiny UI Control for Incrementing Values
+title: Spinbutton - A Tiny UI Control for creating buttons
 date: 2026-01-19
 tags: [ui, web, javascript, component, open-source]
 ---
