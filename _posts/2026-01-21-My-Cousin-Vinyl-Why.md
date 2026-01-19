@@ -18,7 +18,7 @@ At its core, MyCousinVinyl is a shared vinyl collection manager. It tracks artis
 - AI-based album wizard: A guided flow that helps you identify and add the right album and pressing quickly, even when you only have partial info.
 
 
-<img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" width="60%">
+<img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" style=width: 60%; margin-top: 20px">
 
 
 ## Why I built it this way
@@ -62,4 +62,4 @@ I want to expand the wizard with better suggestions and richer metadata validati
 
 If you want the full architecture details or the code, the repository is public: 
 
-s`https://github.com/cajo-dk/mycousinvinyl`.
+`https://github.com/cajo-dk/mycousinvinyl`.
