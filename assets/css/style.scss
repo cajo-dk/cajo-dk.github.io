@@ -36,6 +36,10 @@ html {
   justify-content: flex-end;
 }
 
+.header-avatar-hidden .header-avatar {
+  visibility: hidden;
+}
+
 /* Avatar styling */
 .header-avatar {
   width: 100px;

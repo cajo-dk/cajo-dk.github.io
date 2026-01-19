@@ -27,15 +27,13 @@
         </div>
 
         <!-- Avatar (front page only) -->
-        {% if page.url == "/" %}
-          <div class="header-avatar-wrap">
-            <img
-              src="{{ "/assets/images/avatar.jpg" | relative_url }}"
-              alt="Avatar"
-              class="header-avatar"
-            />
-          </div>
-        {% endif %}
+        <div class="header-avatar-wrap{% unless page.url == "/" %} header-avatar-hidden{% endunless %}">
+          <img
+            src="{{ "/assets/images/avatar.jpg" | relative_url }}"
+            alt="Avatar"
+            class="header-avatar"
+          />
+        </div>
 
         <!-- Navigation (bottom of header) -->
         <nav class="header-nav">
