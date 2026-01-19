@@ -1,15 +1,15 @@
 ---
 layout: post
-title: My Cousin Vinyl - Why I Built It and How It Works
+title: MyCousinVinyl - Why I Built It and How It Works
 date: 2026-01-08
 tags: [ai, codex, openai, claude, python, microservices, eventbased, docker, domaindrivendesign, cloud]
 ---
 
 *This post is based on an article, I wrote on LinkedIn. Read the article here:* [LinkedIn](https://www.linkedin.com/pulse/vacation-ai-coding-assistants-where-does-lead-alex-rasmussen-auttc/)
 
-MyCousinVinyl started as a practical itch: our household collects records, but managing a growing vinyl library across multiple people quickly becomes messy. I wanted a system that treats a collection like a shared catalog rather than a single-user list, and I wanted it to be fast, reliable, and pleasant to use on any device.
+MyCousinVinyl started as a way of testing the code assistants, Claude and Codex: I wanted to compare the two. Our household collects records, but managing a growing vinyl library across multiple people quickly becomes messy. I wanted a system that treats a collection like a shared catalog rather than a single-user list, and I wanted it to be fast, reliable, and pleasant to use on any device. Building such a system, using the latest technologies and coding practices, seemed like a worthy challenge.
 
-The name is a silent homage to the 1992 movie "My Cousin Vinnie." I kept it low-key, but the wink is there for anyone who like quoting the courtroom scenes.
+The application is called MyCousinVinyl - a play on words and a silent homage to the 1992 movie "My Cousin Vinnie." I kept it low-key, but the wink is there for anyone who like quoting the courtroom scenes.
 
 <!--more-->
 
@@ -17,25 +17,28 @@ The name is a silent homage to the 1992 movie "My Cousin Vinnie." I kept it low-
 At its core, MyCousinVinyl is a shared vinyl collection manager. It tracks artists, albums, pressings, and individual collection items. It also adds two features that make it more than a catalog:
 
 - Collection sharing: Each user's collection is their own, but users can see, if another member of their group has a pressing in their collection - great when shopping for presents.
-- AI-based album wizard: A guided flow that helps you identify and add the right album and pressing quickly, even when you only have partial info.
+- AI-based album wizard: A tool that helps you identify the right album and pressing quickly, even when you only have partial info.
 
 
 <img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
 
 
 ## Why I built it this way
+
 I wanted a system that would be robust enough for real use but still approachable for homelab deployment. That pushed the design in a few directions:
 
 - A React SPA so the UI is quick and works on desktop and mobile.
 - Clear architecture boundaries so features can evolve without a full rewrite.
 - Docker-first deployment so I can run it on a NAS or a local dev stack without friction.
 - Tight security at the edges, with simple core logic inside.
+- Azure Entra ID for authentication and RBAC.
 
 
-<img src="/assets/images/mycousinvinyl-02.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
+<img src="/assets/images/mycousinvinyl-02.png" alt="Album List" style="width: 60%; margin: 40px auto; display: block;">
 
 
 ## Chosen components and how they fit
+
 The stack is deliberate and opinionated:
 
 - Frontend: React + Vite, served as static assets by nginx. It keeps the UI fast and decoupled from the API.
@@ -47,21 +50,22 @@ The stack is deliberate and opinionated:
 - Auth: Azure Entra ID with group-based RBAC enforced at HTTP entrypoints.
 
 
-<img src="/assets/images/mycousinvinyl-03.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
+<img src="/assets/images/mycousinvinyl-03.png" alt="Album Wizard" style="width: 60%; margin: 40px auto; display: block;">
 
 
 ## The two standout features
+
 Collection sharing is the heart of the app. The goal is to make a family collection feel like a shared library, but still respect boundaries and responsibilities. The RBAC model keeps it simple: Admin, Editor, Viewer.
 
 The create wizard is the other differentiator. It is designed to reduce the friction of adding records by guiding you through identification and matching. 
 
 
-<img src="/assets/images/mycousinvinyl-04.png" alt="Front page statistics" style="width: 60%; margin: 40px auto; display: block;">
+<img src="/assets/images/mycousinvinyl-04.png" alt="Album Details" style="width: 60%; margin: 40px auto; display: block;">
 
 
 ## What I would change next
 I want to expand the wizard with better suggestions and richer metadata validation. I also want the sharing model to support multiple collections with different visibility rules, so a household can maintain sub-collections without splitting the system.
 
-If you want the full architecture details or the code, the repository is public: 
+If you want the full architecture details or the code, the repository is public and contains additional documentation: 
 
 `https://github.com/cajo-dk/mycousinvinyl`.
