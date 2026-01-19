@@ -55,7 +55,7 @@ strict_front_matter : false
 # Filtering Content
 show_drafts         : null
 limit_posts         : null
-future              : false
+future              : true
 unpublished         : false
 
 # Conversion
