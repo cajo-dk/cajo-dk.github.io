@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 ---
 
@@ -18,11 +18,11 @@ layout: default
           {{ post.excerpt }}
         </div>
         <div class="post-item-more">
-          <a href="{{ post.url | relative_url }}">Read more →</a>
+          <a href="{{ post.url | relative_url }}">Read more</a>
         </div>
       </li>
     {% endif %}
   {% endfor %}
 </ul>
 
-<p><a href="{{ '/tags/' | relative_url }}">← All tags</a></p>
+<p><a href="{{ '/tags/' | relative_url }}">All tags</a></p>

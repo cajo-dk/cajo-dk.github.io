@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Blog
 permalink: /blog/
@@ -17,7 +17,6 @@ permalink: /blog/
         <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         {% if post.tags and post.tags.size > 0 %}
           <span class="post-tags">
-            —
             {% for tag in post.tags %}
               <a class="tag" href="{{ '/tag/' | append: tag | slugify | append: '/' | relative_url }}">#{{ tag }}</a>{% unless forloop.last %} {% endunless %}
             {% endfor %}
@@ -30,7 +29,7 @@ permalink: /blog/
       </div>
 
       <div class="post-item-more">
-        <a href="{{ post.url | relative_url }}">Read more →</a>
+        <a href="{{ post.url | relative_url }}">Read more</a>
       </div>
     </li>
   {% endfor %}
