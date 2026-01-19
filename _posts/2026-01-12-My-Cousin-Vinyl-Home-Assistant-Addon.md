@@ -15,7 +15,7 @@ The HA server is a Raspberry Pi 5 with 8GB RAM and a 128GB SSD. That is plenty f
 
 When running MCV on the local machine or from the NAS, each component runs in its own Docker container. In order to simplify the application when on the Pi, all components except the Postgresql and the MQTT broker run in the same container managed by the HASS server.
 
-¤¤¤ Prerequisites
+### Prerequisites
 
 Before getting started, you need to ensure you have the following:
 
