@@ -19,6 +19,9 @@ At its core, MyCousinVinyl is a shared vinyl collection manager. It tracks artis
 
 ![Screenshot 1](/assets/images/mycousinvinyl-01.png){: width= "60%"}
 
+<img src="/assets/images/mycousinvinyl-01.png" alt="Front page statistics" width="60%">
+
+
 ## Why I built it this way
 I wanted a system that would be robust enough for real use but still approachable for homelab deployment. That pushed the design in a few directions:
 
