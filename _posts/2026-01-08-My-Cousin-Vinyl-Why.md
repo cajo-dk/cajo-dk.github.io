@@ -9,7 +9,7 @@ tags: [ai, codex, openai, claude, python, microservices, eventbased, docker, dom
 
 MyCousinVinyl started as a way of testing the code assistants, Claude and Codex: I wanted to compare the two. Our household collects records, but managing a growing vinyl library across multiple people quickly becomes messy. I wanted a system that treats a collection like a shared catalog rather than a single-user list, and I wanted it to be fast, reliable, and pleasant to use on any device. Building such a system, using the latest technologies and coding practices, seemed like a worthy challenge.
 
-The application is called MyCousinVinyl - a play on words and a silent homage to the 1992 movie "My Cousin Vinnie." I kept it low-key, but the wink is there for anyone who like quoting the courtroom scenes.
+The application is called MyCousinVinyl - a play on words and a silent homage to the 1992 movie "My Cousin Vinny." I kept it low-key, but the wink is there for anyone who like quoting the courtroom scenes.
 
 <!--more-->
 
