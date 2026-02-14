@@ -11,7 +11,9 @@ tags: [home-assistant, mqtt, integration, open-source, rejseplanen]
 
 A wall-mounted Home Assistant dashboard by the front door is meant to streamline everyday routines — arming the alarm, switching lights, heading out the door. But if you still have to pull out your phone to check whether your train is on time, you’re adding friction right when time matters most.
 
-**hass-rejseplanen removes** that last step by acting as a dedicated Rejseplanen fetcher that:
+<!--more-->
+
+**hass-rejseplanen removes** that last step by acting as a dedicated Rejseplanen fetcher that:c
 
 * Pulls public transport departures for a given stop ID
 * Filters by transport category (e.g., regional trains)
@@ -36,4 +38,4 @@ python3 /app/app.py 8600626 --cat-out Re --compact-data --mqtt-on
 
 ## Grab a copy
 
-If you want to try it out, go grab the code here: https://github.com/cajo-dk/hass-rejseplanen 
+If you want to try it out, go grab the code here: `https://github.com/cajo-dk/hass-rejseplanen` 
