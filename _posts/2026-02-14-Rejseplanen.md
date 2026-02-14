@@ -2,7 +2,7 @@
 layout: post
 title: hass-rejseplanen — MQTT-Powered Rejseplanen Departures for Home Assistant
 date: 2026-02-14
-tags: [home-assistant, mqtt, integration, open-source, rejseplanen]
+tags: [homeassistant, integration, open-source]
 ---
 
 **hass-rejseplanen** is a lightweight Home Assistant add-on that fetches departure data from *Rejseplanen*, filters it, compacts it for dashboards, and publishes it to an MQTT broker for use in HA automations and UI panels.
